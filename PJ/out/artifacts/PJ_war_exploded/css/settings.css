@@ -1,0 +1,84 @@
+/* 本页css作为所有图片显示css的样板，其余均复制自此 */
+
+body {
+    background-image: repeating-linear-gradient(-30deg, #1f1f1f, #1f1f1f 20px, #333, #333 100px);
+}
+
+section {
+    background-color: #fdfdfd;
+    margin: 25px 10% 40px 10%;
+    padding-bottom: 30px;
+    width: 80%; height: 240px;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+#div-title {
+    background-image: linear-gradient(#f4f4f4, #e0e0e0);
+    height: 40px;
+    border: 1px none #ddd;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.div-favorites {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%; height: 200px;
+    display: block;
+    border: 1px none #ddd;
+    border-bottom-style: solid;
+    border-radius: 5px;
+}
+
+h3 {
+    width: 100%; height: 2em;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+}
+
+footer {
+    bottom: 3px;
+    font-size: 10px;
+}
+
+h1 {
+    margin-top: 60px; margin-bottom: 40px;
+    text-align: center;
+    color: #888;
+    font-size: 20px;
+}
+
+
+.modify {
+    width: 18%; height: 2.5em;
+    background-image: linear-gradient(#0099e9, #000cb2);
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 16px;
+    margin-left: 41%;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.delete {
+    width: 18%; height: 2.5em;
+    background-image: linear-gradient(#e92f00, #b21901);
+    margin-top: 10px;
+    border-radius: 16px;
+    margin-left: 41%;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
